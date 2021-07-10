@@ -143,30 +143,10 @@ Example:
 
 <br>
 
-## Success tip: staying organized throughout the class
 
-* Be obsessive, starting today
-* Inside your home folder, create a folder where everything from the class will live, and always put everything from class in there:
+### 🔴 **Code Along (4 min)**
 
-`mkdir sei-cranberry-gobblers` (the name of our class; if you like you could add a prefix like `sei` or `ga` something like that)<br>
-`cd sei-cranberry-gobblers`
-
-* In that folder, make a new folder for each day where the name includes the date and topics for the day, and go into it. Suggestion below:
-
-`mkdir 9_10_2018_terminal_loops`<br>
-`cd 9_10_2018_terminal_loops`
-
-* In that folder make a new folder for each lesson or lab or homework and give that folder a nice descriptive name, for example:
-
-`mkdir terminal_practice`<br>
-`cd terminal_practice`
-
-
-<br>
-
-&#x1F535; **Code Along (4 min)**
-
-* Navigate to today's folder, and to the terminal_practice folder you just created
+* Navigate to folder whatever folder you would like to store this lesson in. **We recommend creating a new folder if you haven't already!** `mkdir CREATEmory-Lesson-1` and `cd CREATEmory-Lesson-1`
 * Make a directory `exercise`
 * Go into the directory with autocomplete
 * Make two directories `example1` and `example3` and list them
@@ -337,7 +317,7 @@ Using absolute pathing:
 We are going to:
 
 * build a file structure
-* open the file structure in Sublime
+* open the file structure
 * write some code
 * run parts of the code
 
@@ -355,23 +335,19 @@ We are going to:
 	`mkdir js`<br>
 	`touch js/app.js`<br>
 
-* This will be our standard front-end file structure for the next 4-ish weeks
+* This will be our standard front-end file structure at first
 
 * Let's print a message to the console. It is somewhat of a tradition to write a 'Hello World' program as a first step in programming.
 
 
-* Open the file structure in Sublime Text using your fancy new shortcut (PC Open Folder)
+* Open the file structure in Visual Studio Code (Note, if you are currently in the `file_structure_hello_world` folder you can simply type `code .` to open everything in VSC.
 
 Add to your app.js:<br>
 `console.log('Hello World!');`
 
-
-
 Open this folder structure in chrome and click on index.html.  Open the developer tools.  You should see:
 
 > => Hello World!
-
-**Congrats!** You've written your first "Hello World" of **sei_june_bugs**!
 
 <br>
 <hr>
