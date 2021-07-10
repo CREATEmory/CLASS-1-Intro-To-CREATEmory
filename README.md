@@ -221,5 +221,136 @@ If you were working with others, and they made changes to the repo, you could pu
 
 ### There is much more to learn about Github, but this is all we will cover for now. If you want to learn more about Pull Requests, Branchs, Merging, etc. you can [read through this](https://github.com/CREATEmory/CLASS-1-Intro-To-CREATEmory/blob/main/GIT.md) for now.
 
+<br/>
+
+----
+
+## HTML and CSS: The Basics
+
+#### There are [many](https://learn.shayhowe.com/html-css/building-your-first-web-page/), [many](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics), [many](https://html.com/) resources already made for learning HTML/CSS. If you are totally unfamiliar, it would be a good idea to review some of them, as we only have time to go over the bare minimum.
+
+
+### What is HTML?
+HTML stands for "HyperText Markup Language." Think of it as the building blocks of a website. In general, every element you see on any website is simply one, or a collection of HTML elements.
+
+For example, this text look like this in HTML: 
+`<p>For example, this text look like this in HTML: <p/>`
+
+<img src="https://michaelvbachmannbloghome.files.wordpress.com/2020/07/elements.jpg" align="right" size="200"><img/>
+
+As you can see, it is wrapped with a `<p>` tag to indicate that it is a  paragraph. 
+
+There are many many HTML tags to learn, and all of them do different things. We will go over them a bit, but it's best to learn as you go.
+
+The photo on the right shows how you might think of laying out a simple webpage in terms of html.
+
+> The code for that photo looks like this:
+> `<img src="https://michaelvbachmannbloghome.files.wordpress.com/2020/07/elements.jpg" align="right" size="200"><img/>`
+
+
+### What is CSS?
+
+If every website is built up of the same basic HTML Elements, then why do they all look so different?
+
+This is where CSS (Cascading Style Sheets). CSS is a language that allows you to edit the appearance of HTML elements. 
+
+For example, if I wanted to make the `<p>` from before blue, 50px in size, and change the font, I would use this CSS code:
+```
+p {
+	 font-family: 'Times New Roman';
+    color: blue;
+    font-size: 50px;
+}
+```
+
+**CSS is an art, and it can gert very complex. We cannot cover everything in this lesson. But you will use it very often, so it is good to learn on your own time.** 
+
+### How will we use HTML?
+At first, we will use HTML in it's most basic form. Let's make a basic HTML page with some styles.
+
+🔴 **Create a basic HTML/CSS page**
+
+1. Create a new file in this folder called `index.html`
+
+	> Hint: use the `touch` command on yout Terminal
+
+2. Open the file in your browser with the command `open index.html`. For now it will be a blank white screen.
+
+3. Open the command in your IDE (just use `code index.html` if you are using VSC)
+
+3. Then we will add the "HTML Boilerplate". This is just a template of HTML elements that will be necessary on every HTML page for it to be interpreted properly. **Copy and paste this into your `index.html` file:**
+
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+  
+</body>
+</html>
+```
+> Note, nothing will show up on your browser. This is because these elements are either unstyled containers like `<body>` or they are used for non-visual aspects of a website
+
+#### 🔴 Add some elements to your page
+
+- Between the two `<body>` tags, you can now add whatever you want. Note: elements must have both an opening tag (`<element>`) and a closing tag (`<element/>`) with the content going in between the two.
+	- `<p></p>` for a paragraph
+	- `<h1><h1/>` for a header 1 (you can also use 2-6)
+	- `<img src="url_to_image" ></>` for an image (note that you can add "attributes" to HTML elements like the `src=""` attribute on this `<img>` tag)
+	- `<div><div/>` for a general container element
+	- `<a href="url_to_go_to" ></>` for a link
+	- etc...
+
+
+### How to add CSS?
+
+I'm sure your page looks a bit dull right now. Let's add some CSS to style it.
+
+#### 🔴 Link CSS to your HTML page
+
+1. Create a file to type your CSS in called `styles.css`
+
+2. Open that file in your IDE
+
+3. In your HTML file, you will have to link your CSS file. To do this, you will add a `<link>` element in the `<head>` of your HTML page with the path to `styles.css`. Like this:
+
+```
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+```
+#### 🔴 Style your HTML page with CSS
+
+1. The most basic way of styling an HTML element in CSS is by refering to the name of the element. For example, to make all of the `<p>` elements on my page red, I would type `p { color: red }` in my CSS file. **However, this will apply that style to *every* `<p>` tag on my page.**
+
+2. To style only specific elements, you can add IDs or Classnames to those elements. You do this by adding an `id` or a `class` attribute to an element. For example, let's say I have two different `<p>` elements, and I want to make one blue and one red.
+	- First, I would add class names to those elements like this:
+		- `<p class="red-text" >` and `<p class="blue-text" >`
+	- Then, in my CSS file, I could reference them using `.classname`. For example:
+		- `.red-text { color: red }` and `.blue-text { color: blue }`  
+
+3. Add some styles to your html page. [Here is a good article](https://codeburst.io/how-to-style-your-website-with-css-e72e7046fda5) that goes over the CSS basics in more detail.
+
+<br/>
+
+---
+
+## End Of Class
+
+### ***Thank you all for coming.***
+
+### Please fill out this form to give us feedback and record your attendance. **CREATE/ADD FORM TO THIS!!!**
+
+### You are free to work on whatever you want. But we will have this room for a couple more hours, so please feel free to stay and work with others.
+
+### For further practice, we reccomend that you [complete this lab](https://github.com/CREATEmory/CLASS-1-Intro-To-CREATEmory/blob/main/GIT-LAB.md) by next week.
+
+
 
 

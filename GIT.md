@@ -1,3 +1,7 @@
+![CREATEmory Logo](./logo.png)
+
+## Extra Github Info
+
 ###  Create a pull request to original repository
 
 If you have made a change to your fork that you want to be integrated into the original repo, you'll have to ask the original repo owner to review and merge your changes into theirs.

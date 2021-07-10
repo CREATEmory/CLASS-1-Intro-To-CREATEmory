@@ -1,3 +1,4 @@
+![CREATEmory Logo](./logo.png)
 # Github, HTML and CSS practice 
 
 ## Part 1 - Github

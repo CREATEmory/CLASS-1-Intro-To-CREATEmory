@@ -1,3 +1,5 @@
+![CREATEmory Logo](./logo.png)
+
 ## What is a GUI (pronounced gooey)? Intro (5 mins)
 
 * DOS, Unix, Linux, Commodore 64.
