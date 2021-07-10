@@ -31,14 +31,14 @@ Next in order, CREATEmory is an organization that:
 
 #### Terminal:
 
-We will go over the Terminal and the Command-Line later on in this lesson, but for now, **if you are using Windows, please download [Windows Powershell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.1)** so it is easier to follow along with the instructor.
+We will go over the Terminal and the Command-Line later on in this lesson, but for now, **if you are using Windows, please download <a href="https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.1" target="_blank">Windows Powershell</a>** so it is easier to follow along with the instructor.
 
 #### IDE:
-Your IDE (Integrated Development Environment) is the code editor that you will use to write your code. For this course, **we suggest downloading [Visual Studio Code](https://code.visualstudio.com/download) to use as your IDE**. However, if for whatever reason you don't lie VSC, [Atom](https://atom.io/) or [Sublime](https://www.sublimetext.com/3) are also solid options.
+Your IDE (Integrated Development Environment) is the code editor that you will use to write your code. For this course, **we suggest downloading <a href="https://code.visualstudio.com/download" target="_blank">Visual Studio Code</a> to use as your IDE**. However, if for whatever reason you don't lie VSC, <a href="https://atom.io/" target="_blank">Atom</a> or <a href="https://www.sublimetext.com/3" target="_blank">Sublime</a> are also solid options.
 
 <img width="250" align="right" src="https://aprogrammerlife.com/images/pictuers/why_microsoft_word_is_the_best_ide_for_programming.jpg">
 
->For those of you who have already taken CS courses and are used to coding in Java, you might be tempted to use a Java-specific IDE like IntelliJ, but, because we will not be using Java, it would be better to use another option.
+> For those of you who have already taken CS courses and are used to coding in Java, you might be tempted to use a Java-specific IDE like IntelliJ, but, because we will not be using Java, it would be better to use another option.
 
 
 ### Ultimately, which tools you use to build software are up to you. Pick whichever feels best. 
@@ -91,7 +91,7 @@ One command you will use very often is `cd`. `cd` stands for "Change Directory" 
 - `mkdir directory_name` will create a new directory in the current folder
 - `touch file_name` will create a new file in the current folder
 
-### This is a very basic overview of the Command-Line. We recommend you spend some time practicing on your own. *For further Command-Line information and practice, [please follow these instructions](https://github.com/CREATEmory/CLASS-1-Intro-To-CREATEmory/blob/main/TERMINAL.md). You will learn more commands and have access to extra assignments.*
+### This is a very basic overview of the Command-Line. We recommend you spend some time practicing on your own. *For further Command-Line information and practice, <a href="https://github.com/CREATEmory/CLASS-1-Intro-To-CREATEmory/blob/main/TERMINAL.md" target="_blank">please follow these instructions</a>. You will learn more commands and have access to extra assignments.*
 
 
 
