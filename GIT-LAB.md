@@ -4,15 +4,14 @@
 
 ### Read all the instructions below before you do anything.
 
-0. **Do not fork this repository.**
 
-1. If you cloned this repository, `cd` into the folder that was created by the clone and then skip the rest of this step.  If you did *_not_* clone this repository, create a directory called `git-github-lab` in your directory for today and `cd` into it.  Initialize a git repo. (`git init`). **Do not run `git init` if you are already in a repository that you cloned**. You can check if you're already in a repo by running `git status`.  If it says `fatal: Not a git repository (or any of the parent directories): .git`, then you are **not in a repo** and it is safe to run git init.  If it says ANYTHING ELSE, then DO **NOT** run `git init`.  You do not ever want to run git init inside of an existing repo.  **No git repos inside of git repos!!!**
+1. If you've forked and cloned this repository, `cd` into the folder that was created by the clone and then skip the rest of this step.  If you did *_not_* fork and clone this repository, you can  do that now, or just create a new directory called `git-github-lab` and `cd` into it.  Initialize a git repo. (`git init`). **Do not run `git init` if you are already in a repository that you cloned**. You can check if you're already in a repo by running `git status`.  If it says `fatal: Not a git repository (or any of the parent directories): .git`, then you are **not in a repo** and it is safe to run git init.  If it says ANYTHING ELSE, then DO **NOT** run `git init`.  You do not ever want to run git init inside of an existing repo.  **No git repos inside of git repos!!!**
 
 2. In the top level of your repository, create a file `github-lab-answers.md` and answer the questions below. Commit your work at each point when directed.
 
 2. Look at the questions below and answer them as you complete this tutorial: <https://try.github.io>
 
-3. This tutorial is also great for learning git: http://gitimmersion.com/ It's fairly long, but don't feel like you need to pick it all up in one sitting—you can come back to it.
+3. This tutorial is also great for learning git: [http://gitimmersion.com/](http://gitimmersion.com/) It's fairly long, but don't feel like you need to pick it all up in one sitting—you can come back to it.
 
 ---
 
@@ -25,7 +24,7 @@
 <hr>
 &#x1F534; **Commit your work.** <br>
 The commit message should read: <br>
-"Commit 1 - The 1st set of GIT homework answers are complete".
+"Commit 1 - The 1st set of GIT answers are complete".
 <hr>
 
 1. What command do you use to pull any changes from the master repository into your local repository?<br>
@@ -35,9 +34,9 @@ The commit message should read: <br>
 1. Why might you want to reset your files back to a previous commit?<br>
 
 <hr>
-&#x1F534; ** Commit your work.** <br>
+&#x1F534; **Commit your work.** <br>
 The commit message should read: <br>
-"Commit 2 - The 2nd set of GIT homework answers are complete".
+"Commit 2 - The 2nd set of GIT answers are complete".
 <hr>
 
 1. What command do you use to create a branch?<br>
@@ -45,7 +44,7 @@ The commit message should read: <br>
 1. Why would you want to use a branch other than the default `master`?<br>
 
 <hr>
-&#x1F534; ** Commit your work.** <br>
+&#x1F534; **Commit your work.** <br>
 The commit message should read: <br>
 "Commit 3 - The 3rd set of GIT homework answers are complete".
 <hr>
@@ -54,7 +53,7 @@ The commit message should read: <br>
 1. What command do you use to send all of the work that you've done locally to your remote repository?<br>
 
 <hr>
-&#x1F534; ** Commit your work.** <br>
+&#x1F534; **Commit your work.** <br>
 The commit message should read: <br>
 "Commit 4 - The 4th set of GIT homework answers are complete".
 <hr>
@@ -69,8 +68,8 @@ Watch [this video on HTML](https://www.youtube.com/watch?v=DxhXFpsN5I4&index=1&l
 
 1. Inside the `github-lab` directory, create a new directory called `resume_page`.
 1. Change directories to `resume_page`. Create two files: `index.html` and `style.css`.<br>
-1. Using Sublime, open your files and add the HTML boilerplate code.<br>
-1. Create a heading level-one tag with your name.<br>
+1. Add the [HTML boilerplate code](https://www.codexpedia.com/html/html-boilerplate-code-template/) tin index.html<br>
+1. Create an `<h1>` tag with your name.<br>
 1. Open the `index.html` in your browser to confirm that everything is set up properly.
 Reminder: To open your file with your browser, from the command line, type `open index.html`
 
@@ -82,7 +81,7 @@ The commit message should read: <br>
 
 #### Add some content to your site
 
-1. Insert a professional image of yourself or someone else ('img' tag); it should be placed right after your 'h1' tags<br>
+1. Insert an image of soemthing ('img' tag); it should be placed right after your 'h1' tags<br>
 1. Insert an unordered list of your last three positions ('ul' tag)<br>
 1. Create links to your (or someone's) LinkedIn and Facebook/Twitter pages ('a' tag)<br>1. Use level-three heading tags to create headings before your positions and before your links<br>
 
@@ -93,7 +92,7 @@ The commit message should read: <br>
 <hr>
 
 
-#### Add some style to your site
+#### Add some style to your site with CSS
 
 1. Center your "h1" tag<br>
 1. Change the font of your "h1" tag<br>
@@ -124,27 +123,7 @@ The commit message should read: <br>
 <hr>
 
 
-## Part 4 - Loops
-#### Stay Fresh! Looping with Javascript
-
-* In the `github-lab` folder, create a directory called `loop-questions`.  In `loop-questions` directory, create our usual folder structure with the `index.html` that has the `app.js` linked up in a `<script>` tag. After each question, test your code by reloading the browser and checking the console.
-1. Create a loop that logs the numbers from 0-99, (ascending)
-2. Create a loop that logs the numbers from 99-0 (descending)
-3. Create a loop that logs the numbers from 298-1, **counting** down by 3 (the code in the loop should run 99 times)
-4. Create a loop that logs the **EVEN** numbers from 0-98 (ascending)
-5. Create a loop that logs the **ODD** numbers from 98-0 (descending)
-6. Create a loop that logs the numbers from 49-72 (ascending)
-7. Create a loop that logs the numbers from 81-26 (descending)
-8. Create a loop that logs the numbers from 1-91 **that are multiples of 3** (ascending)
-
-<hr>
-&#x1F534; **Commit your work.** <br>
-The commit message should read: <br>
-"Commit 9 - Created loops.js file".
-<hr>
-
-
-## Hungry for more?
+## Still want more?
 
 - Check out this [tutorial](http://gitreal.codeschool.com/?utm_source=github&utm_medium=codeschool_option&utm_campaign=trygit) that includes videos about using git and some challenges for you to tackle.
 
@@ -167,15 +146,17 @@ The commit message should read: <br>
 <hr>
 &#x1F534; **Commit your work.** <br>
 The commit message should read: <br>
-"Commit 10 -  Worked on Hungry for More".
+"Commit 10 -  Worked on Extra Stuff".
 <hr>
 
 
 ## Conclusion
 
- 1. Inside the `git-github-lab` directory, you should now have a file called `github-lab-answers.md`, a directory called `loop-questions`, and a directory called `resume_page` which contains `index.html`, `projects.html`, and `style.css`.
+ 1. Inside the `git-github-lab` directory, you should now have a file called `github-lab-answers.md` and a directory called `resume_page` which contains `index.html`, `projects.html`, and `style.css`.
 
  2. You should have been adding and committing along the way, but please type `git status` one last time to make sure that everything is committed. If it's not, please commit.
+
+3. Finally, if this is cloned repository, push it up to the remote repo with `git push origin main`. If this ***isn't*** a cloned ropository, can you figure out how to link a local Git repo with a new remote Github repo?
 
 
 

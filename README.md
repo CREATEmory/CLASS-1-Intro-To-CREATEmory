@@ -12,6 +12,8 @@
    * Understand the basics of the Command-Line
    * Create a simple webpage using HTML & CSS
 
+### [Here is the link](https://github.com/CREATEmory/CLASS-1-Intro-To-CREATEmory/blob/main/GIT-LAB.md) to the Lab that you should complete after this lesson
+
 ----
 ## What is CREATEmory
 CREATEmory is, above all, a **community of software engineers** who find it fun to work on **practical, creative applications**. It is a place to meet like-minded students and collaborate with them on **real-life projects**.
@@ -217,7 +219,7 @@ If you were working with others, and they made changes to the repo, you could pu
 
 - `git pull origin main`
 
-## THERE IS MUCH MORE TO GITHUB, BUT FOR NOW, THIS IS ALL WE WILL TOUCH ON. HERE 
+### There is much more to learn about Github, but this is all we will cover for now. If you want to learn more about Pull Requests, Branchs, Merging, etc. you can [read through this](https://github.com/CREATEmory/CLASS-1-Intro-To-CREATEmory/blob/main/GIT.md) for now.
 
 
 
