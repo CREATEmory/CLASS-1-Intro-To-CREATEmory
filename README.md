@@ -29,8 +29,6 @@ Next in order, CREATEmory is an organization that:
 
 ## Software Built For Building Software
 
-####There are two main tools we will use for this course: your Terminal, and your IDE of choice. 
-
 #### Terminal:
 
 We will go over the Terminal and the Command Line later on in this lesson, but for now, **if you are using Windows, please download [Windows Powershell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.1)** so it is easier to follow along with the instructor.
@@ -43,10 +41,25 @@ Your IDE (Integrated Development Environment) is the code editor that you will u
 >For those of you who have already taken CS courses and are used to coding in Java, you might be tempted to use a Java-specific IDE like IntelliJ, but, because we will not be using Java, it would be better to use another option.
 
 
-#### Ultimately, which tools you use to build software are up to you. Pick whichever feels best. 
+### Ultimately, which tools you use to build software are up to you. Pick whichever feels best. 
+
+<br/>
+
+----
+## Terminal
+
+#### Your Terminal is your command line interface. Learning how to use it will drastically improve your efficiency while navigating through files, running programs, and executing many other tasks.
+
+> If you are using Windows, you will have to follow along with Windows Powershell. Most of the commands will be the same, but there are a few differences.
+
+🔴 **Open Terminal**
+
+- `⌘ (Command) + Space`, or use Spotlight
+- "*Terminal"
+- `Enter`
 
 
-
+> You can customize the appearance of your Terminal by going to `Terminal > Preferences > Profiles`
 
 
 
